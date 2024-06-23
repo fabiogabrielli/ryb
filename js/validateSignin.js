@@ -48,7 +48,6 @@ function toggleValidation(id, isValid) {
     }
 }
 
-
 function validateForm() {
 
     var nome = document.getElementById('nome').value;
@@ -58,12 +57,6 @@ function validateForm() {
 
     var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     var passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
-
-    // Limpar mensagens de erro
-    document.getElementById('msgNome').innerText = '';
-    document.getElementById('msgEmail').innerText = '';
-    document.getElementById('msgPassword').innerText = '';
-    document.getElementById('msgConfirmedPassword').innerText = '';
 
     var isValid = true;
 

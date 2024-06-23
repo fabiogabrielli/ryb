@@ -41,12 +41,10 @@
     border: 1px green solid;
 }
 
-.error-message {
+
+.error-message-login {
     color: red;
     font-size: 0.6em;
-    position: absolute;
-    bottom: -1.5em;
-    left: 0;
 }
 
 /* popper */
@@ -60,14 +58,3 @@
     z-index: 1000;
     white-space: nowrap;
 }
-
-
-#arrow {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background: gray;
-    transform: rotate(45deg);
-  }
-
-

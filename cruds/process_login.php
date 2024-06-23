@@ -1,5 +1,4 @@
 <?php
-
 session_start(); // Inicia a sessão
 
 include "../conn.php";
@@ -35,7 +34,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("Location: ../login.php?error=user_not_found");
         exit();
     }
-
 }
 
 $conn->close();
