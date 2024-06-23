@@ -1,0 +1,13 @@
+# Ignorar arquivos de configuração sensíveis
+conn.php
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar diretórios de cache
+/cache/
+/tmp/
+
+# Ignorar arquivos do sistema operacional
+.DS_Store
+Thumbs.db

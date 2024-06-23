@@ -1,0 +1,86 @@
+/* css rock your business */
+
+/* INICIO LOGIN */
+
+.loginStage {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.loginContent {
+    width: 30%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    margin-bottom: 30px;
+    width: 80%;
+    align-self: center;
+}
+
+.loginContent h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.loginContent button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.loginContent button:hover {
+    background-color: #45a049;
+}
+
+.linklogin {
+    font-size: 0.8rem !important;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 576px) {
+    .loginContent {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+    .loginContent {
+        width: 70%;
+    }
+}
+
+
+/* FIM LOGIN */
+
+
+/* INICIO SIGNIN */
+
+.passwordValidated {
+    color: red;
+    display: block;
+    margin-top: 0.1em;
+    font-size: 0.7em;
+}
+
+.valid {
+    color: green !important;
+}
+
+.linkSignIn {
+    font-size: 0.8rem !important;
+    font-weight: 300;
+}
