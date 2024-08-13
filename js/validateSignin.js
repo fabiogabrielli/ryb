@@ -16,7 +16,6 @@ function showError(element, message) {
 }
 
 document.getElementById('email').addEventListener('blur', checkEmail);
-
 document.getElementById('password').addEventListener('input', validatePassword);
 document.getElementById('confirm_password').addEventListener('input', validatePassword);
 

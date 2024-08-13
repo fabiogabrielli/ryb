@@ -5,7 +5,7 @@ if (isset($_POST['email'])) {
     $email = $_POST['email'];
 
     // Verifica se o e-mail já está cadastrado
-    $stmt = $conn->prepare("SELECT id FROM users WHERE email = ?");
+    $stmt = $conn->prepare("SELECT user_id FROM users WHERE email = ?");
     $stmt->bind_param("s", $email);
     $stmt->execute();
     $stmt->store_result();

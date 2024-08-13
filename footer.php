@@ -6,6 +6,7 @@
 
 <!-- Inclusão do JavaScript Próprio -->
 <script src="js/validateSignin.js"></script>
+<script src="js/addTask.js"></script>
 
 <!-- Inclusão Popper.js -->
 <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>

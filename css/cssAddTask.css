@@ -1,11 +1,10 @@
 
-.form-group {
+.form-group-task {
     position: relative;
-    margin: 25px 0;
     width: 100%;
 }
 
-.form-group input {
+.form-group-task input {
     width: 100%;
     padding: 10px;
     height: 45px;
@@ -16,7 +15,7 @@
     background-color: white !important;
 }
 
-.form-group textarea {
+.form-group-task textarea {
     width: 100%;
     padding: 10px;
     font-size: 0.8rem;
@@ -26,7 +25,7 @@
     background-color: white !important;
 }
 
-.form-group label {
+.form-group-task label {
     position: absolute;
     top: 50%;
     left: 10px;
@@ -52,33 +51,66 @@
     font-size: 0.8rem;
 }
 
-.form-group input:focus + label,
-.form-group textarea:focus + .labelDescription,
-.form-group input:not(:placeholder-shown) + label {
+.form-group-task input:focus + label,
+.form-group-task textarea:focus + .labelDescription,
+.form-group-task input:not(:placeholder-shown) + label {
     top: 0px !important;
     left: 10px;
     font-size: 12px;
     color: green;
 }
 
-.form-group input:focus {
+.form-group-task input:focus,
+.form-group-task textarea:focus  {
     border: 1px green solid;
 }
-
 
 .error-message-login {
     color: red;
     font-size: 0.6em;
 }
 
-/* popper */
 
-.popper-tooltip {
-    background-color: #f44336;
-    color: #fff;
-    padding: 5px 10px;
-    border-radius: 4px;
-    font-size: 0.6rem;
-    z-index: 1000;
-    white-space: nowrap;
+/* especificos */
+
+#addTaskForm {
+    background-color: rgba(0, 128, 0, 0.187);
+    padding: 100px;
+}
+
+#addTaskForm  div {
+    margin: 10px 0;
+}
+
+
+.taskPriority {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    background-color: beige;
+}
+
+.taskDescription {
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: red;
+}
+
+.priority {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#priority {
+    border: none;
+    font-size: 0.8rem;
+}
+
+
+.taskProjectResp {
+    display: grid;
+    grid-template-columns: 49.5% 49.5%;
+    height: 100%;
+    gap: 1%;
+    background-color: aqua;
 }
